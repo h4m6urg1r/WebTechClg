@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Static Dictionary</title>
+	<link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
+	<style>
+		body {
+			font-family: 'Fira Sans';
+			margin: 0;
+			padding: 0;
+			background-color: #dce0e8;
+		}
+		h1{
+			text-decoration: underline;
+			font-weight: bolder;
+			text-align: center;
+		}
+		.search{
+			justify-content: center;
+			align-items: center;
+			display: flex;
+		}
+		input,button{
+			font-size: 20px;
+			height: 5vh;
+		}
+		.dictionary {
+			background-color: #eff1f5;
+			margin: 50px;
+			padding: 0px 20px;
+			border: 1px solid #1e66f5;
+			border-radius: 1rem;
+			box-shadow: 2rem 2rem 3rem #acb0be;
+			list-style-type: none;
+		}
+		.dictionary dt {
+			font-weight: bold;
+			color: #4c4f69;
+			font-size: 20px;
+		}
+		.dictionary dd {
+			color: #6c6f85;
+			font-size: 16px;
+			list-style-type: none;
+			margin-bottom: 20px;
+		}
+		.dictionary dd:last-child {
+			margin-bottom: 0px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Dictionary</h1>
+	<div class="search">
+		<input type="text" placeholder="Enter a word to search">
+		<button>Search</button>
+	</div>
+	<div class="dictionary">
+		<dl>
+			<dt>Sonder</dt>
+			<dd>The realization that each passerby has a life as vivid and complex as your own.</dd>
+			<dt>Epiphany</dt>
+			<dd>A sudden and profound realization or understanding, often triggered by a mundane or everyday experience.</dd>
+			<dt>Serendipity</dt>
+			<dd>The occurrence of fortunate events by chance or accident, leading to unexpected and pleasant discoveries.</dd>
+			<dt>Ephemeral</dt>
+			<dd>Lasting for only a short period of time; transient or fleeting.</dd>
+			<dt>Saudade</dt>
+			<dd>A deep emotional state of longing or nostalgia for something or someone absent, often accompanied by a sense of incompleteness or melancholy.</dd>
+			<dt>Panacea</dt>
+			<dd>A remedy or solution that is believed to cure all ailments or problems.</dd>
+			<dt>Quixotic</dt>
+			<dd>Characterized by lofty, romantic, or idealistic pursuits or ambitions that are often impractical or unrealistic.</dd>
+			<dt>Eunoia</dt>
+			<dd>Beautiful thinking; a state of well-mind and good spirit.</dd>
+			<dt>Petrichor</dt>
+			<dd>The pleasant, earthy smell that follows a rain shower, particularly after a dry spell.</dd>
+			<dt>Halcyon</dt>
+			<dd>Denoting a period of peace, tranquility, and prosperity; often associated with nostalgic or idyllic memories.</dd>
+		</dl>
+	</div>
+</body>
+</html>
